@@ -1,0 +1,187 @@
+.container-fluid {
+  padding: 3% 5%;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+}
+
+a .footer-brand {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover .footer-brand {
+  color: darkgray;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 0 2%;
+  text-align: left;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials {
+  padding: 7% 5%;
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+#footer {
+  padding: 7% 15%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  padding: 0% 20%;
+  margin-bottom: 20px;
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.testimonial-text {
+  padding: 0% 20%;
+  margin-bottom: 20px;
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.bigHeading {
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.footer-brand {
+  padding: 0% 1% 2%;
+}
+
+.btn-cta {
+  font-weight: bold;
+  padding: 1% 2%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.feature-box {
+  padding: 5% 3%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1.2rem;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
